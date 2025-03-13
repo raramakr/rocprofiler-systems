@@ -36,7 +36,7 @@ set_target_properties(
                INSTALL_RPATH "${ROCPROFSYS_EXE_INSTALL_RPATH}"
                OUTPUT_NAME ${BINARY_NAME_PREFIX}-avail)
 
-rocprofiler_systems_strip_target(rocprofiler-systems-avail)
+#rocprofiler_systems_strip_target(rocprofiler-systems-avail)
 
 install(
     TARGETS rocprofiler-systems-avail

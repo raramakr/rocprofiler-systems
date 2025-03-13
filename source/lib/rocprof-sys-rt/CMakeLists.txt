@@ -116,7 +116,7 @@ set_target_properties(
                BUILD_RPATH "\$ORIGIN"
                INSTALL_RPATH "\$ORIGIN")
 
-rocprofiler_systems_strip_target(rocprofiler-systems-rt-library)
+#rocprofiler_systems_strip_target(rocprofiler-systems-rt-library)
 
 install(TARGETS rocprofiler-systems-rt-library DESTINATION ${CMAKE_INSTALL_LIBDIR})
 

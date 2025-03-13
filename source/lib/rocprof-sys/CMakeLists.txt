@@ -65,7 +65,7 @@ set_target_properties(
                SOVERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
                INSTALL_RPATH "${ROCPROFSYS_LIB_INSTALL_RPATH}")
 
-rocprofiler_systems_strip_target(rocprofiler-systems-shared-library)
+#rocprofiler_systems_strip_target(rocprofiler-systems-shared-library)
 
 install(
     TARGETS rocprofiler-systems-shared-library

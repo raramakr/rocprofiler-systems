@@ -45,7 +45,7 @@ set_target_properties(
                BUILD_RPATH "\$ORIGIN"
                INSTALL_RPATH "\$ORIGIN")
 
-rocprofiler_systems_strip_target(rocprofiler-systems-dl-library)
+#rocprofiler_systems_strip_target(rocprofiler-systems-dl-library)
 
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/dl/dl.hpp
         DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME}/dl)

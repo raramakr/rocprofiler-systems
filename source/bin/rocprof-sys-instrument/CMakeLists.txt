@@ -51,7 +51,7 @@ endif()
 
 add_target_flag_if_avail(rocprofiler-systems-instrument "-Wno-deprecated-declarations")
 
-rocprofiler_systems_strip_target(rocprofiler-systems-instrument)
+#rocprofiler_systems_strip_target(rocprofiler-systems-instrument)
 
 if(CMAKE_BUILD_TYPE MATCHES "^(DEBUG|Debug)")
     string(REPLACE " " ";" _FLAGS "${CMAKE_CXX_FLAGS_RELWITHDEBINFO}")

@@ -23,7 +23,7 @@ set_target_properties(
                INSTALL_RPATH "${ROCPROFSYS_EXE_INSTALL_RPATH}"
                OUTPUT_NAME ${BINARY_NAME_PREFIX}-causal)
 
-rocprofiler_systems_strip_target(rocprofiler-systems-causal)
+#rocprofiler_systems_strip_target(rocprofiler-systems-causal)
 
 install(
     TARGETS rocprofiler-systems-causal

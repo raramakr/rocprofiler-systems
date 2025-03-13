@@ -20,7 +20,7 @@ set_target_properties(
                INSTALL_RPATH "${ROCPROFSYS_EXE_INSTALL_RPATH}"
                OUTPUT_NAME ${BINARY_NAME_PREFIX}-sample)
 
-rocprofiler_systems_strip_target(rocprofiler-systems-sample)
+#rocprofiler_systems_strip_target(rocprofiler-systems-sample)
 
 install(
     TARGETS rocprofiler-systems-sample

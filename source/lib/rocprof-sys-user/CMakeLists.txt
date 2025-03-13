@@ -41,7 +41,7 @@ set_target_properties(
                BUILD_RPATH "\$ORIGIN"
                INSTALL_RPATH "\$ORIGIN")
 
-rocprofiler_systems_strip_target(rocprofiler-systems-user-library)
+#rocprofiler_systems_strip_target(rocprofiler-systems-user-library)
 
 foreach(_HEADER ${_user_headers})
     string(REPLACE "${CMAKE_CURRENT_SOURCE_DIR}/rocprofiler-systems/"

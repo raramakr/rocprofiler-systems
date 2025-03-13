@@ -17,7 +17,7 @@ set_target_properties(
                INSTALL_RPATH "${ROCPROFSYS_EXE_INSTALL_RPATH}"
                INSTALL_RPATH_USE_LINK_PATH ON)
 
-rocprofiler_systems_strip_target(rocprofiler-systems-exe)
+#rocprofiler_systems_strip_target(rocprofiler-systems-exe)
 
 install(
     TARGETS rocprofiler-systems-exe
